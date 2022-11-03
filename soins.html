@@ -1,0 +1,4791 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les soins</title>
+    <link rel="stylesheet" href="soins.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="display-Head">
+
+
+
+
+            <div>
+                <a href="index.html"> <img class="logoHead" src="image/logo shell's Nails Typo 2.png" alt=""></a>
+
+            </div>
+
+
+            <div class="display-List-Head">
+
+                <div class="toggle_btn">
+                    <span></span>
+
+
+                </div>
+
+
+                <ul class="list-Head menu nav ">
+                    <li><a href="index.html">Accueil</a> </li>
+                    <li><a href="institut.html">L'institut</a> </li>
+
+                    <li> <a href="soins.html">Les soins</a>
+
+                        <ul class="sous">
+
+                            <li id="men" class="sous-Menu" onclick=togg()><a href="#sectepilation"> Epilation </a></li>
+                            <!-- <hr> -->
+                            <li id="main" class="sous-Menu" onclick=menumains()> <a href="#sectsoinsmains"> Soin des
+                                    mains et des pieds
+                                </a></li>
+                            <!-- <hr> -->
+                            <li class="sous-Menu" onclick=menuongle()><a href="page-reparation.html"> Soins des ongles
+                                </a></li>
+                            <!-- <hr> -->
+                            <li class="sous-Menu" onclick=menuextensionongle()><a href="page-reparation.html"> Extension
+                                    Ongles </a></li>
+
+
+                        </ul>
+
+
+
+
+
+                    </li>
+                    <li> <a href="marques.html">Nos Marques </a> </li>
+
+
+                    <li> <a href="contact.html">Contact</a> </li>
+                    <li> <a class="button-Devis-Top" href="devis.html">Prendre RDV</a> </li>
+                    <!--  <li><a class="buttonNum" href="tel:06.19.98.93.33">07.49.22.29.75</a></li> -->
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+    </header>
+
+
+
+    <section class="slide-top">
+
+
+
+        <div class="titrehead">
+
+        </div>
+
+
+
+        <!-- <button id="togg1">Ongle </button>
+        <button id="togg2">Cliquez-moi !</button>
+        <div id="d1">
+            <p>Ce texte appartient au premier div de ma page</p>
+            <p>Ce deuxième paragraphe également</p>
+        </div>
+        <div id="d2">
+            <p>Il existe deux façons de cacher un élément <span>comme un div</span> en CSS :</p>
+            <ul>
+                <li>Utiliser visibility: hidden</li>
+                <li>Utiliser display: none</li>
+            </ul>
+        </div> -->
+
+
+        <!-- ---------------------------------------------- -->
+        <!-- <a href="javascript: switchInfoPerso();">Afficher le texte</a>
+        <div id="divacacher" style="display: none;">Le texte qui est cacher</div>
+
+
+        <a href="javascript: masque();">Afficher le texte</a>
+        <div id="nouveau" style="display: none;">Le texte qui est cacher</div> -->
+
+
+        <ul class="FT-nav">
+
+            <li class="FT" id="sectepilation"><a href="" onclick="javascript:visibilite('Epilation'); return false;">
+                    Epilation
+                </a></li>
+
+            <li class="FT" id="sectsoinsmains"><a href="" onclick="javascript:visibilite('Soinsmains'); return false;">
+                    Soin des mains et visage
+                </a></li>
+
+            <li class="FT" id="sectongles"><a href="" onclick="javascript:visibilite('Ongles'); return false;">
+                    Soin des ongles
+                </a></li>
+
+            <li class="FT"><a href="" onclick="javascript:visibilite('agrandirongles'); return false;">
+                    Extension des ongles
+                </a></li>
+
+            <li class="FT"><a href="" onclick="javascript:visibilite('soinshomme'); return false;">
+                    Homme
+                </a></li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="Epilation" class="Element" style="display:block;"><br>
+
+
+            <div class="container">
+
+                <h2>Épilation </h2>
+
+                <!-- <table>
+
+                        <tr>
+                            <td>Nom</td>
+                            <td>Age</td>
+                            <td>Mail</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Giraud</td>
+                            <td>28</td>
+                            <td>pierre.giraud@edhec.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Joly</td>
+                            <td>27</td>
+                            <td>pjl@gmail.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Nom</td>
+                            <td>Age</td>
+                            <td>Mail</td>
+                        </tr>
+
+                        <tr>
+                            <td>Giraud</td>
+                            <td>28</td>
+                            <td>pierre.giraud@edhec.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Joly</td>
+                            <td>27</td>
+                            <td>pjl@gmail.com</td>
+                        </tr>
+
+
+
+                    </table> -->
+
+
+
+
+
+
+
+
+
+                <!--   LES SOINS EN LIGNE 
+                    <hr>
+                    <div class="flex-ligne-soin">
+
+
+                        <div class="nom-soin">
+
+                            <p>Pose sur ongles naturels </p>
+                            <div class="pop" onclick="display('text-popup')" id="popup"><a href="#text-popup">en savoir plus </a></div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="temps-soin">
+
+                            <p>1h30</p>
+
+
+                        </div>
+
+
+                        <div class="prix-soin">
+
+                            <p>60€</p>
+
+
+                        </div>
+
+
+
+
+                        <div class="bouton-reserve"><a href="#">clic</a></div>
+
+
+
+                    </div>
+
+
+                    
+                    <div id="text-popup">
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ut!</p><br>
+                        <p>Lorem ipsum dolor sit amet.</p><br>
+                    
+
+
+                    </div>
+                    <hr>
+
+
+
+
+
+
+                 
+                    <div class="flex-ligne-soin">
+
+
+                        <div class="nom-soin">
+
+                            <p>Pose sur ongles naturels </p>
+                            <div class="pop2" onclick="display('text-popup2')" id="popup"><a href="#text-popup2">en savoir plus </a></div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="temps-soin">
+
+                            <p>1h30</p>
+
+
+                        </div>
+
+
+                        <div class="prix-soin">
+
+                            <p>60€</p>
+
+
+                        </div>
+
+
+
+
+                        <div class="bouton-reserve"><a href="#">clic</a></div>
+
+
+
+                    </div>
+
+
+                    
+                    <div id="text-popup2">
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, ut!</p><br>
+                        <p>Lorem ipsum dolor sit amet.</p><br>
+                    
+
+
+                    </div>
+                    <hr>
+
+
+                                              -->
+
+
+
+
+
+
+
+
+
+
+                <!--   SOINS EN CARRÉE TEST -->
+
+
+
+
+                <section class="display-card-soin">
+
+
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+
+
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop" onclick="display('text-popup')" id="popup"><a
+                                                    href="#text-popup">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop2" onclick="display('text-popup2')" id="popup"><a
+                                                    href="#text-popup2">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup2">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop3" onclick="display('text-popup3')" id="popup"><a
+                                                    href="#text-popup3">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup3">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+
+
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop4" onclick="display('text-popup4')" id="popup"><a
+                                                    href="#text-popup4">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup4">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop5" onclick="display('text-popup5')" id="popup"><a
+                                                    href="#text-popup5">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup5">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop6" onclick="display('text-popup6')" id="popup"><a
+                                                    href="#text-popup6">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup6">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop7" onclick="display('text-popup7')" id="popup"><a
+                                                    href="#text-popup7">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup7">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop8" onclick="display('text-popup8')" id="popup"><a
+                                                    href="#text-popup8">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup8">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop9" onclick="display('text-popup9')" id="popup"><a
+                                                    href="#text-popup9">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup9">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop10" onclick="display('text-popup10')" id="popup"><a
+                                                    href="#text-popup10">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup10">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop11" onclick="display('text-popup11')" id="popup"><a
+                                                    href="#text-popup11">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup11">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop12" onclick="display('text-popup12')" id="popup"><a
+                                                    href="#text-popup12">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup12">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop14" onclick="display('text-popup14')" id="popup"><a
+                                                    href="#text-popup14">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup14">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop15" onclick="display('text-popup15')" id="popup"><a
+                                                    href="#text-popup15">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup15">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                    <div class="soins-first">
+
+                        <img src="image/Soins/img-soins visage-modif.png"
+                            alt="image d'une personne faisant un soin du visage">
+
+                    </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop16" onclick="display('text-popup16')" id="popup"><a
+                                                    href="#text-popup16">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup16">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+
+
+
+        <div id="Soinsmains" class="Element" style="display:none;"><br>
+
+            <div class="container">
+
+                <h2>Soins des mains et visage</h2>
+
+                <section class="display-card-soin">
+
+
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+
+
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+                                                -->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop17" onclick="display('text-popup17')" id="popup"><a
+                                                    href="#text-popup17">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup17">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop18" onclick="display('text-popup18')" id="popup"><a
+                                                    href="#text-popup18">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup18">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop19" onclick="display('text-popup19')" id="popup"><a
+                                                    href="#text-popup19">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup19">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+
+
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop20" onclick="display('text-popup20')" id="popup"><a
+                                                    href="#text-popup20">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup20">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop21" onclick="display('text-popup21')" id="popup"><a
+                                                    href="#text-popup21">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup21">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop22" onclick="display('text-popup22')" id="popup"><a
+                                                    href="#text-popup22">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup22">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop23" onclick="display('text-popup23')" id="popup"><a
+                                                    href="#text-popup23">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup23">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop24" onclick="display('text-popup24')" id="popup"><a
+                                                    href="#text-popup24">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup24">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop25" onclick="display('text-popup25')" id="popup"><a
+                                                    href="#text-popup25">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup25">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop26" onclick="display('text-popup26')" id="popup"><a
+                                                    href="#text-popup26">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup26">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop27" onclick="display('text-popup27')" id="popup"><a
+                                                    href="#text-popup27">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup27">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop28" onclick="display('text-popup28')" id="popup"><a
+                                                    href="#text-popup28">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup28">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop29" onclick="display('text-popup29')" id="popup"><a
+                                                    href="#text-popup29">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup29">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                    <div class="soins-first">
+
+                        <img src="image/Soins/img-soins visage-modif.png"
+                            alt="image d'une personne faisant un soin du visage">
+
+                    </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop30" onclick="display('text-popup30')" id="popup"><a
+                                                    href="#text-popup30">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup30">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                    <div class="soins-first">
+
+                        <img src="image/Soins/img-soins visage-modif.png"
+                            alt="image d'une personne faisant un soin du visage">
+
+                    </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop31" onclick="display('text-popup31')" id="popup"><a
+                                                    href="#text-popup31">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup31">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+        <!-- --------------------------------------------------------->
+
+
+
+
+        <div id="Ongles" class="Element" style="display:none;"><br>
+
+
+
+            <div class="container">
+
+                <h2>Bar à Ongles</h2>
+
+                <section class="display-card-soin">
+
+
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+
+
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+                                                -->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop32" onclick="display('text-popup32')" id="popup"><a
+                                                    href="#text-popup32">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup32">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop33" onclick="display('text-popup33')" id="popup"><a
+                                                    href="#text-popup33">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup33">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop34" onclick="display('text-popup34')" id="popup"><a
+                                                    href="#text-popup34">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup34">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop35" onclick="display('text-popup35')" id="popup"><a
+                                                    href="#text-popup35">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup35">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop36" onclick="display('text-popup36')" id="popup"><a
+                                                    href="#text-popup36">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup36">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- --------------------------------------------------------->
+                    <div class="soins">
+
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop37" onclick="display('text-popup37')" id="popup"><a
+                                                    href="#text-popup37">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup37">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+
+                                            </div>
+
+
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+
+
+                                            </div>
+
+
+
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+
+                                            <div class="pop38" onclick="display('text-popup38')" id="popup"><a
+                                                    href="#text-popup37">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup38">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop39" onclick="display('text-popup39')" id="popup"><a
+                                                    href="#text-popup39">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup39">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop41" onclick="display('text-popup41')" id="popup"><a
+                                                    href="#text-popup41">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup41">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop42" onclick="display('text-popup42')" id="popup"><a
+                                                    href="#text-popup42">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup42">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop43" onclick="display('text-popup43')" id="popup"><a
+                                                    href="#text-popup43">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup43">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop44" onclick="display('text-popup44')" id="popup"><a
+                                                    href="#text-popup4">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup44">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                                        <div class="soins-first">
+
+                                            <img src="image/Soins/img-soins visage-modif.png"
+                                                alt="image d'une personne faisant un soin du visage">
+
+                                        </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop45" onclick="display('text-popup45')" id="popup"><a
+                                                    href="#text-popup45">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup45">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                    <div class="soins-first">
+
+                        <img src="image/Soins/img-soins visage-modif.png"
+                            alt="image d'une personne faisant un soin du visage">
+
+                    </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop46" onclick="display('text-popup46')" id="popup"><a
+                                                    href="#text-popup30">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup46">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                    Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- --------------------------------------------------------->
+
+                    <div class="soins">
+
+                        <div class="display-soins">
+
+                            <div class="soinsbis">
+
+                                <div class="carre-joint">
+
+                                    <div class="cube-soin">
+
+
+                                        <!-- 
+
+                    <div class="soins-first">
+
+                        <img src="image/Soins/img-soins visage-modif.png"
+                            alt="image d'une personne faisant un soin du visage">
+
+                    </div>
+-->
+
+                                        <div class="cube-soin-top">
+
+                                            <div class="nom-soins">
+
+                                                <p>Soins du visage</p>
+
+                                            </div>
+                                            <div class="pop47" onclick="display('text-popup47')" id="popup"><a
+                                                    href="#text-popup47">en savoir plus </a></div>
+
+                                            <div class="text-pop" id="text-popup47">
+
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+                                                    ut!</p><br>
+                                                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p><br>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div class="cube-soin-bottom">
+
+                                            <div class="cube-soin-prix">
+
+                                                <p>60€</p>
+
+
+                                            </div>
+
+                                            <div class="cube-soin-temps">
+
+                                                <p>40min</p>
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="bouton-reserve"><a href="#">Réserver</a></div>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div id="agrandirongles" class="Element" style="display:none;"><br>
+
+
+            <h1>Les ongles long c'est bien </h1>
+
+
+
+        </div>
+
+
+
+        <div id="soinshomme" class="Element" style="display:none;"><br>
+
+
+            <h1> Les hommes propre c'est bien </h1>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <div class="container">
+
+
+            <div id="display-General-Footer">
+
+                <div class="section-Gauche">
+
+                    <div class="display-Logo-Footer">
+                        <a class="logo-Lien-Footer" href="index.html"><img class="logo-Footer"
+                                src="image/logo shell's Nails Typo 2.png" alt=""></a>
+
+                        <h4>Shell's Beauty Salon</h4>
+
+
+                    </div>
+
+
+                    <ul>
+                        <li>
+                            <div class="display-Footer">
+
+                                <div class="icon-Footer">
+
+                                    <i class="fas fa-map-marker-alt"></i>
+
+                                </div>
+
+
+                                <div class="text-Footer">
+
+
+                                    <p>2460 chemin des Adrechs de Valcros, 83440 Montauroux</p>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="display-Footer">
+
+                                <div class="icon-Footer">
+
+                                    <i class="fas fa-phone"></i>
+                                </div>
+
+
+                                <div class="text-Footer">
+
+                                    <a class="num" href="tel:06.31.59.73.41">06.31.59.73.41</a>
+
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="display-Footer">
+
+                                <div class="icon-Footer">
+
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+
+
+                                <div class="text-Footer">
+
+                                    <a class="num" href="mailto:Shellsbeauty@gmail.com">Shellsbeauty@gmail.com</a>
+
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+
+
+                <!-- ----------------------- 2eme Colonne --------------------------- -->
+
+                <!-- icon idée 
+
+<i class="fa-solid fa-store"></i> institue
+
+<i class="fa-solid fa-spa"></i> fleur 
+
+<i class="fa-solid fa-box-heart"></i> box pour marque -->
+
+
+
+
+
+                <div class="section-Gauche">
+
+                    <ul class="section-Middle">
+                        <li>
+
+                            <a href="page-depannage.html">
+
+                                <div class="display-Footer2">
+
+
+
+
+                                    <div class="text-Footer">
+
+
+                                        <p> <i class="fa-solid fa-store"></i>L'institut</p>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </a>
+
+                        </li>
+                        <li>
+
+                            <a href="page-reparation-domicile.html">
+
+                                <div class="display-Footer2">
+
+
+                                    <div class="text-Footer">
+
+
+                                        <p>
+                                            <i class="fa-solid fa-spa"></i>Les soins</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+
+
+                        </li>
+
+                        <li>
+
+                            <a href="page-reparation.html">
+
+                                <div class="display-Footer2">
+
+
+
+                                    <div class="text-Footer">
+
+
+                                        <p>
+                                            <i class="fa-solid fa-hand-holding-heart"></i> Nos marques
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </li>
+
+
+
+                        <li>
+
+                            <a href="mentions-legales.html">
+
+                                <div class="display-Footer2">
+
+                                    <div class="text-Footer">
+
+
+                                        <p> <i class="fas fa-wind"></i>Mentions Légales</p>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+
+                <!-- ----------------------- 3eme Colonne --------------------------- -->
+
+
+
+
+
+
+                <div class="section-Gauche">
+
+                    <ul class="reseau-Soc">
+                        <li>
+
+                            <a href="">
+
+                                <div class="display-Footer">
+
+                                    <div class="icon-Footer">
+
+                                        <i class="fab fa-instagram"></i> </div>
+
+
+
+                                </div>
+
+
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="">
+
+                                <div class="display-Footer">
+
+                                    <div class="icon-Footer">
+
+                                        <i class="fab fa-youtube"></i> </div>
+
+
+
+
+                                </div>
+
+                            </a>
+
+
+
+                        </li>
+
+                        <li>
+
+                            <a href="">
+
+                                <div class="display-Footer">
+
+                                    <div class="icon-Footer">
+
+                                        <i class="fab fa-tiktok"></i>
+                                    </div>
+
+
+                                </div>
+
+                            </a>
+
+                        </li>
+
+
+
+
+
+                    </ul>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <div>
+
+                <h4 class="name-Footer">© Shell's Institut 2022 Tous droits réservés</h4>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="soins.js"></script>
+
+</html>

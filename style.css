@@ -1,0 +1,971 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+.img-logo-top {
+
+    height: 10rem;
+
+
+
+}
+
+
+
+.display-Head {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+
+    height: 14vh;
+    width: 100%;
+    /* background-color: #3b456d; */
+    background-image: url(img/chevrolet1-png.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.logoHead {
+
+    height: 7.5rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+}
+
+
+
+
+@media all and (max-width: 1800px) {
+
+
+    .toggle_btn {
+
+        height: 30px;
+        width: 30px;
+        position: relative;
+        float: right;
+        margin-right: 10px;
+        margin-top: 43px;
+        cursor: pointer;
+
+
+    }
+
+    .toggle_btn span {
+
+        height: 3px;
+        background-color: #000B38;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+
+
+    }
+
+
+    .toggle_btn span::before {
+
+        content: '';
+        height: 3px;
+        background-color: #000B38;
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        left: 0;
+
+
+    }
+
+
+    .toggle_btn span::after {
+        content: '';
+        height: 3px;
+        background-color: #000B38;
+        width: 100%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+
+
+    }
+
+    .menu {
+
+        height: 300px;
+        background: #000B38;
+        position: absolute;
+        right: 0;
+        margin-right: 0rem;
+        display: block;
+        z-index: 1;
+        width: 200px;
+
+    }
+
+
+
+    .menu li {
+
+        display: block;
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        padding: 0 auto;
+        margin-right: 0
+    }
+
+    .nav {
+
+        margin-right: -200px;
+        transition: 0.2s;
+        display: none;
+
+    }
+
+    .nav_open {
+
+        margin-right: 0;
+        transition: 0.2s;
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+header ul {
+
+    display: flex;
+    margin-right: 27rem;
+    margin-top: 3rem;
+    align-items: center;
+
+}
+
+
+header ul li {
+
+    margin-right: 46px;
+    list-style: none;
+}
+
+
+
+header ul a {
+    color: #272727;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+
+}
+
+header ul a:hover {
+
+    color: #E88D70;
+
+}
+
+
+
+
+
+/* ---------------Menu Deroulant ------------------------------- */
+
+.li {
+
+    list-style: none;
+    margin-left: 15%;
+
+}
+
+
+
+
+
+.listeNav a {
+
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-family: 'roboto';
+    font-weight: 500;
+}
+
+
+
+
+.listeNav a:hover {
+
+    color: rgb(218, 98, 0);
+    border-bottom: 2px solid gold;
+
+}
+
+/* ---------------------------- Menu deroulant 1      */
+
+.sous-Menu {
+
+    list-style: none;
+    margin-top: 1rem;
+
+
+}
+
+.sous {
+
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #E88D70;
+    position: absolute;
+    /* width: 16rem;
+    height: 11.4rem; */
+    padding: 3px;
+    margin: auto;
+    z-index: 1;
+}
+
+.list-Head>li:hover .sous {
+
+    display: block;
+
+}
+
+.sous li {
+
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-right: 10px;
+
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.sous a:hover {
+    border-bottom: none;
+    color: #ffffff91;
+}
+
+.deroulant>a::after {
+    content: " ▼";
+    font-size: 12px;
+
+}
+
+/* ------------------------------------- */
+
+
+
+
+.button-Devis-Top {
+
+
+
+    border: #ffb298 solid 10px;
+    border-radius: 15px;
+    background-color: #ffb298;
+    text-decoration: none;
+
+}
+
+
+.button-Devis-Top:hover {
+
+    border: #fd6836 solid 10px;
+    background-color: #fd6836;
+color: white;
+}
+
+
+
+
+
+
+
+
+.buttonNum {
+    border: white solid 10px;
+    border-radius: 20px;
+    background: white;
+
+    color: #000B38;
+}
+
+.buttonNum:hover {
+
+    background-color: #000B38;
+    border: #000B38 solid 10px;
+    color: white;
+}
+
+
+
+
+/* ------------------Fin Header ----------------- */
+
+.container {
+
+    width: 1200px;
+    margin: auto;
+
+}
+
+
+
+
+.slide-top {
+
+    height: 47vh;
+    background-color: rgb(252, 203, 203);
+
+
+
+}
+
+
+
+
+/*-------SLIDER--------------
+
+.titrehead{
+
+margin-left: 30px;
+
+}
+
+.display-slider{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.slider-container{
+
+width: 1280px;
+margin: auto;
+
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 47vh;
+    overflow-x: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    
+  .slide1 {
+    background-image: url(
+  "image/visage1-modif.png");
+margin-left: 300px;
+
+  }
+  .slide2 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221254/pic2.png");
+  }
+  .slide3 {
+    background-image: url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/20210812221322/pic3.png");
+  }
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    /*margin-top: -35px;*/
+/* width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 20rem;
+   /* margin-left: 20px;*/
+/* }
+    
+  #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #fff;
+    right: 20rem;
+/*    margin-right: 20px;   }*/
+
+
+/*-----------FIN SLIDER ------------*/
+
+
+.display-soins {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.soins {
+
+    margin: 30px 0;
+
+}
+
+
+.titre-soins {
+
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+
+.soinsbis {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+
+.soins-first {
+
+    width: 360px;
+    height: 14rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.soins-first img{
+width: 100%;
+height: 224px;
+object-fit: cover;
+
+
+
+}
+
+.nom-soins {
+    width: 360px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nom-soins p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.soinsbis2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+
+.carre-joint {
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.49);
+
+  
+}
+
+.carre-joint a{
+
+    text-decoration: none;
+
+
+
+}
+
+.carre-joint a:hover {
+
+color: pink;
+
+
+}
+
+.savoir{
+
+    display: none;
+
+}
+
+.soins-first:hover .savoir{
+
+display: block;
+
+}
+
+
+
+.votre-estheticienne {
+
+    background-color: rgb(252, 203, 203);
+    height: 711px;
+
+
+}
+
+
+.display-estheticienne {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 711px;
+
+}
+
+
+.text-estheticienne {
+
+    margin-right: 45px;
+
+}
+
+.text-estheticienne h2 {
+
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.text-estheticienne p {
+
+    width: 400px;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+
+
+
+
+.dimensions-image-estheticienne {
+
+    width: 555px;
+    height: 551px;
+    background-color: red;
+
+}
+
+.dimensions-image-estheticienne img{
+
+height: 100%;
+width: 100%;
+object-fit: cover;
+
+
+}
+
+
+
+
+
+
+/*------ NOUS CONTACTER ------------*/
+
+
+.contact-Home {
+
+    margin-bottom: 8rem;
+    margin-top: 30px;
+
+}
+
+.contact-Home h2 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #000B38;
+    margin-bottom: 4rem;
+}
+
+.display-Contact-Home {
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+.img-Contact-Home {
+
+    /* height: 25rem; */
+    width: 100%;
+    height: 430px;
+}
+
+
+.img-Contact-Home img {
+
+    /* height: 25rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.text-Contact-Home {
+
+
+    margin-left: 5rem;
+
+}
+
+
+
+.text-Contact-Home h3 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000B38;
+    margin-bottom: 1rem;
+
+
+}
+
+.text-Contact-Home h4 {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000B38;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+
+}
+
+
+
+.text-Contact-Home p {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000B38;
+    padding-top: 13px;
+
+
+}
+
+.contact-Home li {
+
+    list-style: none;
+
+}
+
+
+.display-List-Contact {
+
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+
+.contact {
+
+    text-decoration: none;
+    color: #000B38;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+
+
+}
+
+
+
+.icon {
+    margin-right: 1.2rem;
+    color: #000B38;
+
+}
+
+.text-List-Contact {
+
+
+}
+
+.fa-envelope {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  --------------- FOOTER --------*/
+
+
+
+
+
+
+
+
+
+
+
+footer p {
+
+    display: flex;
+
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    top: 0;
+    height: 22.5rem;
+    background-color: rgb(252, 203, 203);
+
+}
+
+#display-General-Footer {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.display-Logo-Footer {
+
+    display: flex;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
+.logo-Footer {
+
+    height: 5rem;
+    margin-right: 20px;
+
+}
+
+
+.logo-Lien-Footer:hover {
+    opacity: 0.8;
+
+}
+
+
+.section-Gauche h4 {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+
+}
+
+.num {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+.section-Gauche {
+    margin-left: 5rem;
+
+
+}
+
+.display-Footer {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.display-Footer2 {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.section-Gauche li {
+
+    list-style: none;
+
+}
+
+.section-Middle {
+
+    margin-top: 2rem;
+
+}
+
+
+
+
+.text-Footer p {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-top: 13px;
+
+
+}
+
+
+.footer li {
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon-Footer {
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+
+footer a {
+
+    text-decoration: none;
+
+
+}
+
+.fas {
+
+
+
+    margin-right: 1.5rem;
+}
+
+.fab {
+
+    font-size: 2.3rem;
+
+}
+
+.fa-solid{
+
+margin-right: 1.5rem;
+
+}
+
+
+.reseau-Soc {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.name-Footer {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
